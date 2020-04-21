@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import seaborn as sns
-from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 import matplotlib.colors as mc
 import colorsys
@@ -70,6 +69,6 @@ if __name__ == "__main__":
             line.set_mfc(col_edge)
             line.set_mec(col_edge)
             line.set_linewidth(1.5)
-    plt.savefig("rainbow.png", dpi=600)
+    plt.savefig("rainbow.png", dpi=300)
     plt.show()
 
